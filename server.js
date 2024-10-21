@@ -14,8 +14,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 // MySQL connection setup
 const db = mysql.createConnection({
   host: 'localhost',
-  user: 'root',
-  password: 'hello', // Your MySQL password
+ 
   database: 'portfolio' // Replace with your database name
 });
 
